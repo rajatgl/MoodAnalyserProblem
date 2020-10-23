@@ -22,9 +22,9 @@ public class MoodAnalyserTest
 	@Test
 	public void GivenAnyMessage_WhenAnalysed_ShouldGiveSadMood()
 	{
-		MoodAnalyser moodAnalyser = new MoodAnalyser("im ok");
+		MoodAnalyser moodAnalyser = new MoodAnalyser();
 		String mood = moodAnalyser.analyseMood();
-		Assert.assertEquals("HAPPY", mood);	
+		Assert.assertEquals("", mood);	
 	}
 
 
